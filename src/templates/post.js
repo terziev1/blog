@@ -4,9 +4,12 @@ import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
 import kebabCase from 'lodash/kebabCase'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
-
 import { Layout, Wrapper, Header, Subline, SEO, PrevNext } from '../components'
 import config from '../../config'
+
+import { DiscussionEmbed } from "disqus-react"
+
+
 
 const Content = styled.article`
   grid-column: 2;
@@ -48,11 +51,15 @@ const Title = styled.h1`
 
 const PostContent = styled.div`
   margin-top: 4rem;
+  margin-bottom: 6rem;
 `
 
-const Post = ({ pageContext: { slug, prev, next }, data: { mdx: postNode } }) => {
+const Post = ({ pageContext: { title, slug, prev, next }, data: { mdx: postNode } }) => {
   const post = postNode.frontmatter
-
+  const disqusConfig = {
+    shortname: 'kostadin-terziev',
+    config: { identifier: slug , title},
+  }
   return (
     <Layout customSEO>
       <Wrapper>
@@ -74,11 +81,13 @@ const Post = ({ pageContext: { slug, prev, next }, data: { mdx: postNode } }) =>
           <PostContent>
             <MDXRenderer>{postNode.body}</MDXRenderer>
           </PostContent>
+          <DiscussionEmbed {...disqusConfig} />
           <PrevNext prev={prev} next={next} />
         </Content>
       </Wrapper>
     </Layout>
   )
+
 }
 
 export default Post

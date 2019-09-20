@@ -3,10 +3,24 @@
   "description": "React-Gatsby website",
   "version": "1.0.0",
   "author": "Kostadin Terziev",
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop -o",
+    "develop": "gatsby develop",
+    "serve": "gatsby serve",
+    "start": "yarn develop",
+    "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
+    "lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore",
+    "lint:ci": "yarn lint --format junit -o results/eslint/result.xml",
+    "format": "prettier --parser mdx --write \"blog/**/**/*.mdx\""
+  },
   "dependencies": {
     "@mdx-js/mdx": "^1.4.5",
     "@mdx-js/react": "^1.4.5",
     "babel-plugin-styled-components": "^1.10.6",
+    "disqus-react": "^1.0.7",
     "gatsby": "^2.15.15",
     "gatsby-plugin-catch-links": "^2.1.9",
     "gatsby-plugin-google-analytics": "^2.1.16",
@@ -23,6 +37,7 @@
     "gatsby-remark-external-links": "0.0.4",
     "gatsby-remark-images": "^3.1.22",
     "gatsby-source-filesystem": "^2.1.22",
+    "gitalk": "^1.5.0",
     "lodash": "^4.17.15",
     "mdx-utils": "0.2.0",
     "polished": "^3.4.1",
@@ -41,19 +56,6 @@
     "gatsby-starter",
     "lekoarts"
   ],
-  "license": "MIT",
-  "main": "n/a",
-  "scripts": {
-    "build": "gatsby build",
-    "dev": "gatsby develop -o",
-    "develop": "gatsby develop",
-    "serve": "gatsby serve",
-    "start": "yarn develop",
-    "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
-    "lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore",
-    "lint:ci": "yarn lint --format junit -o results/eslint/result.xml",
-    "format": "prettier --parser mdx --write \"blog/**/**/*.mdx\""
-  },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
