@@ -5,11 +5,9 @@ import styled from 'styled-components'
 import kebabCase from 'lodash/kebabCase'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { Layout, Wrapper, Header, Subline, SEO, PrevNext } from '../components'
-import config from '../../config'
+// import config from '../../config'
 
 import { DiscussionEmbed } from "disqus-react"
-
-
 
 const Content = styled.article`
   grid-column: 2;
@@ -65,7 +63,7 @@ const Post = ({ pageContext: { title, slug, prev, next }, data: { mdx: postNode 
       <Wrapper>
         <SEO postPath={slug} postNode={postNode} article />
         <Header>
-          <Link to="/">{config.siteTitle}</Link>
+          <Link to="/">&larr; Back to home</Link>
         </Header>
         <Content>
           <Title>{post.title}</Title>

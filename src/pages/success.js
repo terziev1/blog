@@ -45,7 +45,7 @@ const Success = () => (
     <Wrapper>
       <Helmet title={`Contact | ${config.siteTitle}`} />
       <Header>
-        <Link to="/">{config.siteTitle}</Link>
+        <Link to="/">&larr; Back to home</Link>
       </Header>
       <Content>
         <h1>Your message was sent!</h1>

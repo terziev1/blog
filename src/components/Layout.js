@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled, { ThemeProvider, createGlobalStyle } from 'styled-components'
+import { Link } from 'gatsby'
 
 import SEO from './SEO'
 import theme from '../../config/theme'
@@ -204,7 +205,7 @@ const Layout = ({ children, customSEO }) => {
         <GlobalStyle />
         {children}
         <Footer>
-          &copy; All rights reserved. <br />
+          Get in touch <Link to="contact">Email</Link> | <a href="https://www.linkedin.com/in/kostadin-terziev/" target="_blank" rel="noopener noreferrer">Linkedin</a> | <a href="https://github.com/terziev1" target="_blank" rel="noopener noreferrer">Github</a>
         </Footer>
       </>
     </ThemeProvider>
