@@ -15,9 +15,9 @@ module.exports = {
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
   userTwitter: '', // Twitter Username - Optional
-  ogSiteName: '', // Facebook Site Name - Optional
+  ogSiteName: 'Kostadin Terziev Blog', // Facebook Site Name - Optional
   ogLanguage: 'en_US', // Facebook Language
-  googleAnalyticsID: '',
+  googleAnalyticsID: 'UA-140629774-2',
 
   // Manifest and Progress color
   // See: https://developers.google.com/web/fundamentals/web-app-manifest/
