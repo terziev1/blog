@@ -41,9 +41,7 @@ const Content = styled.article`
     margin-bottom: 1rem;
     font-size: 16px;
   }
-  .reaction-item__text{
-    display:none;
-  }
+
 `
 
 const Title = styled.h1`

@@ -185,6 +185,9 @@ const GlobalStyle = createGlobalStyle`
   [hidden] {
     display: none !important;
   }
+  div.align.align--middle.reaction-item__button > div{
+    display:none !important;
+  }
 `
 
 const Footer = styled.footer`
@@ -205,7 +208,7 @@ const Layout = ({ children, customSEO }) => {
         <GlobalStyle />
         {children}
         <Footer>
-          Get in touch <Link to="contact">Email</Link> | <a href="https://www.linkedin.com/in/kostadin-terziev/" target="_blank" rel="noopener noreferrer">Linkedin</a> | <a href="https://github.com/terziev1" target="_blank" rel="noopener noreferrer">Github</a>
+          <Link to="contact"> Get in touch</Link> | <a href="https://www.linkedin.com/in/kostadin-terziev/" target="_blank" rel="noopener noreferrer">Linkedin</a> | <a href="https://github.com/terziev1" target="_blank" rel="noopener noreferrer">Github</a>
         </Footer>
       </>
     </ThemeProvider>
