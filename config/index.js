@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: 'Kostadin Terziev', // Navigation and Site Title
   siteTitleAlt: 'Kostadin Terziev', // Alternative Site title for SEO
   siteTitleManifest: 'KostadinTerziev',
-  siteUrl: 'https://kostadin.netlify.com', // Domain of your site. No trailing slash!
+  siteUrl: 'https://kostadinterziev.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteHeadline: 'Writing and publishing content', // Headline for schema.org JSONLD
   siteBanner: '/social/banner.png', // Your image for og:image tag. You can find it in the /static folder
