@@ -208,7 +208,7 @@ const Layout = ({ children, customSEO }) => {
         <GlobalStyle />
         {children}
         <Footer>
-          <Link to="contact"> Get in touch</Link> | <a href="https://www.linkedin.com/in/kostadin-terziev/" target="_blank" rel="noopener noreferrer">Linkedin</a> | <a href="https://github.com/terziev1" target="_blank" rel="noopener noreferrer">Github</a>
+          <Link to="/about">About me</Link> | <Link to="contact"> Get in touch</Link> | <a href="https://www.linkedin.com/in/kostadin-terziev/" target="_blank" rel="noopener noreferrer">Linkedin</a> | <a href="https://github.com/terziev1" target="_blank" rel="noopener noreferrer">Github</a>
         </Footer>
       </>
     </ThemeProvider>
