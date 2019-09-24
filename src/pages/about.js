@@ -37,7 +37,7 @@ const About = () => (
       <Content>
         <h1>About me:</h1>
         <p>I'm a 22 years old self taught <b>JavaScript Enthusiast</b> based in Sofia. Currently I'm working at a company called <b>Voxgig</b>, as a <b>Web Developer</b>. </p>
-        <p>Outside of work I love gaming, anime and everything around japanese culture and I'm slowly learning to speak the language.</p>
+        <p>Outside of work I love gaming, anime and everything around Japanese culture and I'm slowly learning to speak the language.</p>
         <p>Some of the things I use and love</p>
         <ul>
             <li>HTML,CSS,SASS</li>
