@@ -46,7 +46,7 @@ const Content = styled.div`
 const About = () => (
   <Layout>
     <Wrapper>
-      <Helmet title={`Contact | ${config.siteTitle}`} />
+      <Helmet title={`About | ${config.siteTitle}`} />
       <Header>
         <Link to="/">&larr; Back to home</Link>
       </Header>
