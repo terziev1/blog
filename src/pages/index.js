@@ -51,7 +51,7 @@ const IndexPage = ({
       <Hero>
         <h1>Hi.</h1>
         <p>
-          I&apos;m Kostadin Terziev, a Software Developer.
+          I&apos;m Kostadin Terziev, a Web Developer.
         </p>
 
         <Link to="/contact">
