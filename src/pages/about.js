@@ -28,7 +28,7 @@ const Content = styled.div`
 `
 
 const About = () => (
-  <Layout>
+  <b>
     <Wrapper>
       <Helmet title={`About | ${config.siteTitle}`} />
       <Header>
@@ -46,7 +46,7 @@ const About = () => (
         </ul>
       </Content>
     </Wrapper>
-  </Layout>
+  </b>
 )
 
 export default About
