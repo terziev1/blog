@@ -22,15 +22,31 @@ const Content = styled.div`
   @media (max-width: ${props => props.theme.breakpoints.phone}) {
     padding: 2rem 1.5rem;
   }
-  p,li{
-      font-size:1.25em
+  form {
+    p {
+      label,
+      input {
+        display: block;
+      }
+      input {
+        min-width: 275px;
+      }
+      textarea {
+        resize: vertical;
+        min-height: 150px;
+        width: 100%;
+      }
+    }
   }
+  p,li{
+    font-size:1.25em
+}
 `
 
 const About = () => (
-  <b>
+  <Layout>
     <Wrapper>
-      <Helmet title={`About | ${config.siteTitle}`} />
+      <Helmet title={`Contact | ${config.siteTitle}`} />
       <Header>
         <Link to="/">&larr; Back to home</Link>
       </Header>
@@ -46,7 +62,7 @@ const About = () => (
         </ul>
       </Content>
     </Wrapper>
-  </b>
+  </Layout>
 )
 
 export default About
