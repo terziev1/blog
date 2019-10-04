@@ -13,6 +13,7 @@ const Content = styled.div`
   box-shadow: 0 4px 120px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
   padding: 2rem 4rem;
+  font-size:1.25em;
   background-color: ${props => props.theme.colors.bg};
   z-index: 9000;
   margin-top: -3rem;
@@ -38,9 +39,9 @@ const Content = styled.div`
       }
     }
   }
-  p,li{
-    font-size:1.25em
-}
+  h5{
+    margin-bottom:0;
+  }
 `
 
 const About = () => (
@@ -53,13 +54,31 @@ const About = () => (
       <Content>
         <h1>About me:</h1>
         <p>I'm a 22 years old self taught <b>Web Developer</b> based in Sofia. Currently I'm working remotely at a company called <a href="https://www.voxgig.com/"><b>Voxgig</b></a>. </p>
-        <p>Outside of work I love gaming, anime and everything around Japanese culture and I'm slowly learning to speak the language.</p>
-        <h5>Some of the things I use and love</h5>
+        <p>Outside of work I love gaming, anime and everything around Japanese culture.</p>
+        <h4>Some of the things I use and love</h4>
         <ul>
-            <li>HTML,CSS,SASS</li>
+            <li>HTML, CSS, SASS</li>
             <li>JavaScript ( VueJs, Vuetify, React, React Native, Node.js, Hapi.js, Lab)</li>
             <li>Photoshop, Sketch</li>
         </ul>
+        {/* <h4>My experience so far:</h4>
+        <ul>
+          <li>
+            <h5><a>Prodesign</a></h5>
+            <p>Translated design team’s UX wireframes and mockups into responsive, interactive features, using HTML/CSS and JavaScript.</p>
+            <p>Created and implemented a custom CSS grid system, with CSS media queries for mobile responsiveness.</p>
+            <p>Participated in projects in all stages of the product life cycle.</p>
+            <p>Leveraged web frameworks to consistently complete product deliverables ahead of schedule. Automated image optimization, using Gulp and minified JS and CSS.</p>
+          </li>
+          <li>
+            <h5><a>Popertee</a></h5>
+            <p>Reworked the whole website improving the user experience and speed of the website.</p>
+            <p>Made the product mobile friendly.</p>
+            <p>Participated in the creation of a custom CMS for the company.</p>
+            <p>Worked closely with the management with ideas on improving the products features.</p>
+            <p>Maintained and wrote python web-scrapers.</p>
+          </li>
+        </ul> */}
       </Content>
     </Wrapper>
   </Layout>
