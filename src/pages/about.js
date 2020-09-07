@@ -53,13 +53,14 @@ const About = () => (
       </Header>
       <Content>
         <h1>About me:</h1>
-        <p>I'm a 22 years old self taught <b>Web Developer</b> based in Sofia. Currently I'm working remotely at a company called <a href="https://www.voxgig.com/"><b>Voxgig</b></a>. </p>
-        <p>Outside of work I love gaming, anime and everything around Japanese culture.</p>
+        <p>
+          Software Developer combining both web and mobile technologies with a focus on UX. Experience as a Full stack Developer in a High Potential Start-Up environment and  building UI interfaces for both B2B and B2C in large-scale systems. With a passion to learn new technologies and enjoy the different aspects of each one. Apart from work I love to create  mobile and desktop games using either Unity or Godot.</p>
         <h4>Some of the things I use and love</h4>
         <ul>
-            <li>HTML, CSS, SASS</li>
-            <li>JavaScript ( VueJs, Vuetify, React, React Native, Node.js, Hapi.js, Lab)</li>
-            <li>Photoshop, Sketch</li>
+          <li>JavaScript ( VueJs, Vuetify, Nuxt, Vuex, React, React Native, Node.js), Python</li>
+          <li>HTML, CSS, SASS </li>
+          <li> Microservices, Test Driven Development, Kubernetes, Got </li>
+          <li>Photoshop, Sketch, Adobe XD, Procreate</li>
         </ul>
         {/* <h4>My experience so far:</h4>
         <ul>

@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 const SectionTitle = styled.div`
   font-size: ${props => props.theme.fontSize.small};
-  text-transform: uppercase;
   font-weight: bold;
   text-align: center;
   color: ${props => props.theme.colors.grey.dark};
