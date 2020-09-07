@@ -99,6 +99,13 @@ const IndexPage = ({
               Software Developer combining both web and mobile technologies with a focus on UX. Experience as a Full stack Developer in a High Potential Start-Up environment and  building UI interfaces for both B2B and B2C in large-scale systems. With a passion to learn new technologies and enjoy the different aspects of each one.</p>
             <p>Currently working as a remote Software Development contractor.</p>
             <p> Apart from work I love to create  mobile and desktop games using either Unity or Godot.</p>
+            <h4>Some of the things I use and love</h4>
+            <ul>
+              <li>JavaScript ( VueJs, Vuetify, Nuxt, Vuex, React, React Native, Node.js), Python</li>
+              <li>HTML, CSS, SASS </li>
+              <li> Microservices, Test Driven Development, Kubernetes, Got </li>
+              <li>Photoshop, Sketch, Adobe XD, Procreate</li>
+            </ul>
           </div>
 
         </Content>
