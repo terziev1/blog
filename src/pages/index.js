@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
 
-import { Layout, Article, Wrapper, Button, SectionTitle } from '../components'
+import { Layout, Wrapper, Button, SectionTitle } from '../components'
 
 const Content = styled.div`
 grid-column: 2;
